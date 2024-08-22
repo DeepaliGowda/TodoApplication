@@ -1,0 +1,31 @@
+.item{
+width: 500px;
+color: black;
+font-size: 16px;
+margin: 0 auto;
+}
+.itemName{
+    font-weight: bold;
+    /* padding-left: 25px;
+    padding-top: 2px; */
+    /* text-align: center; */
+
+    padding: 12px;
+
+}
+.line{
+    border: 1px solid #eae6e6;
+}
+.closeBtn{
+    float:right;
+    border: none;
+    background-color: #CD5C08;
+    color: #FFF5E4;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-top: -2px;
+    cursor: pointer;
+}
+.completed{
+    text-decoration: line-through;
+}
