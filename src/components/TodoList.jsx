@@ -1,4 +1,4 @@
-import styles from './ToDoList.module.css';
+import styles from './TodoList.module.css';
 import TodoItem from "./TodoItem";
 export default function TodoList({todos,setTodos}){
     const sortedTodos=todos.slice().sort((a,b)=>Number(a.done)-Number(b.done)) //Slice will create a copy and sorting based on whether its done or not.. done is boolean so convert in into number
